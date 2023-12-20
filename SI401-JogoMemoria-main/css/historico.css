@@ -1,0 +1,79 @@
+#comp1{
+    margin-left: 2%;
+    margin-right: 22%;
+    font-size: 20px;
+}
+#comp2{
+    margin-right: 8%;
+    font-weight: bold;
+}
+#comp3{
+    margin-right: 4%;
+}
+#comp4{
+    margin-right: 4%;
+}
+section{
+    padding: 0;
+}
+.logo{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(24, 13, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 25pt;
+    border-radius: 25px;
+}
+
+.filter span:hover{
+    transform: scale(1.5);
+    background-color: #ff000052;
+}
+table{
+    width: 100%;
+    height: 58%;
+    border-collapse: collapse;
+    margin-top: 2%;
+    background-color: rgba(238, 135, 135, 0.349);
+    color: white;
+}
+table tr td{
+    border: 1px solid black;
+    text-align: center;
+}
+table th{
+    border: 1px solid black;
+    background-color: rgb(110, 110, 110);
+}
+table #modo{
+    width: 8%;
+    height: 8%;
+}
+table #posicao{
+    width: 5%;
+}
+table #nome{
+    width: 75%;
+}
+
+#partida6{
+    background-color: rgba(11, 187, 70, 0.349);
+}
+#partida3{
+    background-color: rgba(11, 187, 70, 0.349);
+}
+#partida2{
+    background-color: rgba(11, 187, 70, 0.349);
+}
+#partida1{
+    background-color: rgba(11, 187, 70, 0.349);
+}
+#partida5{
+    background-color: rgba(187, 11, 11, 0.349);
+}
+#partida4{
+    background-color: rgba(187, 11, 11, 0.349);
+}

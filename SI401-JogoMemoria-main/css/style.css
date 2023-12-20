@@ -1,0 +1,116 @@
+body
+{   
+    font-size: 16px; 
+    color: white;
+    font-family: "Inter", Arial, sans-serif;
+    background-color: #6C757D;
+}
+
+#biglogo
+{
+    width: 195px;
+    height: 218.4px;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+.botao
+{    
+    color: black;
+    background-color: #DFDFDF;
+    width: 40%;
+    position: relative;
+    height: 2em;
+    margin-top: 0.75em;
+    margin-bottom: 0.5em;
+    box-shadow: 2px 3px;
+    border: none;
+    border-radius: 25px;
+    transition: 1s all;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.botao:hover {
+    background: #93999e;
+    transform: scale(1.1);
+}
+
+.form
+{
+    color: #B9B9B9;
+    background-color: #292929;
+    display: block;
+    width: 25%;
+    position: relative;
+    height: 2em;
+    margin: auto;
+    line-height: 200%;
+    margin-top: 1em;
+    border-radius: 25px;
+    padding: 0.5% 3%;
+    text-align: center;
+}
+
+.inalteravel
+{
+    color: black;
+    background-color: #777777;
+    display: block;
+    width: 25%;
+    position: relative;
+    height: 2em;
+    margin: auto;
+    line-height: 200%;
+    margin-top: 1em;
+    padding: 0.5% 3%;
+    border-radius: 25px;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+main
+{
+    background-color: #464648;
+    text-align: center;
+    position: absolute;
+    left: 33.3%;
+    width: 33%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+    padding-bottom: 2%;
+}
+
+main.login
+{
+    top: 18%;
+    height: 64%;
+}
+
+main.cadastro
+{
+    top: 0.8%;
+}
+
+p
+{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h2
+{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    font-size: 30px;
+    font-weight: normal;
+}

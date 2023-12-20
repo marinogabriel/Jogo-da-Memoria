@@ -1,0 +1,17 @@
+1-Abra o seu controlador do navegador Web (De preferencia o Xampp);
+
+2-Em Mysql clique em admin, e ele abrirá uma página no seu navegador 
+chamada "myPhPadmin";
+
+3-página selecione a database "phpmyadmin";
+
+4-Na barra superior terá a opção "SQL";
+
+5-Copie e cole o código "jogomemoria.sql" anexado;
+
+6-Na barra inferior verá um botão escrito "Go";
+
+7-Basta clickar;
+
+P.S.: deixamos alguns inserts para provar que testamos e funcionou
+:)

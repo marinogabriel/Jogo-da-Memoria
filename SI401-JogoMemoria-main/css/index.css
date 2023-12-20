@@ -1,0 +1,363 @@
+/*Componentes Padrão HTML*/
+body
+{	
+	position:fixed; /*Indica que o elemento estará em uma posição fixa em relação à janela do browser*/
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#42596F;
+}
+
+nav{
+    position: absolute;
+    width: 69%;
+    height: 8.5%;
+    background: rgba(217, 217, 217, 0.75);
+    border-radius: 25px;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+a:hover{
+    transform: scale(1.1);
+}
+section{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 18%;
+    width: 60%;
+    height: 75%;
+}
+nav img{
+    width: 6%;
+    height: 86%;
+    border-radius: 65px;
+    margin-left: 1%;
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+section iframe{
+    width:100%;
+    height:100%;
+    border: 0;
+}
+#voltar{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 45%;
+    margin-left: 5%;
+    border: 1px solid #000000;
+    background-color: #ffffff41;
+    border-radius: 15px;
+}
+#voltar h4{
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+}
+#voltar img{
+    float: left;
+    width: 35%;
+    height: 100%;
+    margin-right: 2%;
+}
+#voltar:hover{
+    transform: scale(1.2);
+}
+/*Fim dos Componentes Padrão HTML*/
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#comp1{
+    margin-left: 1%;
+    margin-right: 22%;
+    font-size: 20px;
+}
+#comp2{
+    margin-right: 22%;
+    font-weight: bold;
+}
+#comp3{
+    margin-right: 4%;
+}
+
+
+.sub-nav{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+/* Histórico de Partidas*/
+.historico{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    margin-left: 55%;
+    background-color: #919193;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+.historico a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+}
+.historico footer{
+    margin-left: 63%;
+    margin-top: 1.5%;
+}
+.historico footer:hover{
+    transform: scale(1.1);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 10%;
+    background-color: #454040;
+    border-radius: 29px 29px 0% 0%;
+    border: 1px solid #000000;
+}
+.win{
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 90%;
+    height: 15%;
+    background-color: #669C72;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+.lose{
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 90%;
+    height: 15%;
+    background-color: #9c6666;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+.player-status{
+    width: 30%;
+    height: 80%;
+    margin-left: 2.3%;
+    margin-top: 2%;
+    float: left;
+}
+.player-status ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.player-status ul li{
+    margin-top: 4%;
+    text-align: center;
+}
+.mode-status{
+    width: 30%;
+    height: 80%;
+    margin-left: 2.3%;
+    margin-top: 2%;
+    background-color: #98AEA1F0;
+    float: left;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #000000;
+
+}
+.modo{
+    padding: 0;
+    margin: 0;
+    margin-top: 7%;
+    
+}
+.dimensao{
+    padding: 0;
+    margin: 0;
+    font-size:xx-large;
+}
+.win-status{ 
+    width: 25%;
+    height: 50%;
+    margin-left: 5.3%;
+    margin-top: 5%;
+    background-color: #25A02A;
+    border: 1px solid #000000;
+    text-align: center;
+    float: left;
+    border-radius: 30px;
+}
+.lose-status{ 
+    width: 25%;
+    height: 50%;
+    margin-left: 5.3%;
+    margin-top: 5%;
+    background-color: #a02525;
+    border: 1px solid #000000;
+    text-align: center;
+    float: left;
+    border-radius: 30px;
+}
+.win-status p{ 
+    margin-top: 5%;
+    font-family: 'Bevan';
+    font-weight: bold;
+    font-size: 230%;
+}
+.lose-status p{ 
+    margin-top: 5%;
+    font-family: 'Bevan';
+    font-weight: bold;
+    font-size: 230%;
+}
+/* Fim do Histórico de Partidas*/
+
+/* Boxes de Navegação*/
+.sub-nav img{
+    width: 60%;
+    height: 50%;
+    margin-left: 20.35%;
+    margin-top: 14.5%;
+}
+.box1{
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 9%;
+    float: left;
+    background-color: #919193;
+    border-radius: 28px 30px;
+    border: 1px solid #000000;
+
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+
+.box2{
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 9%;
+    float: left;
+    background-color: #919193;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.box3{
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 9%;
+    float: left;
+    background-color: #919193;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.box4{
+    width: 40%;
+    height: 40%;
+    margin-top: 10%;
+    margin-left: 9%;
+    float: left;
+    background-color: #919193;
+    border-radius: 30px;
+    border: 1px solid #000000;
+}
+.box4:hover{
+    transform: scale(1.1);
+}
+.titulo-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 15%;
+    background-color: #000000;
+    border-radius: 0px 0px 29px 29px;
+    margin-top: 27.5%;
+}
+.titulo-box h3{
+    font-weight: normal;
+}
+/* Fim dos Boxes de Navegação*/
+
+/*Selecao Dimensao Modo Classico*/
+.selecaoModoClassico{
+    position: absolute;
+    width: 45%;
+    height: 65%;
+    background-color: #000000e5;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    margin-left: 23%;
+    margin-top: 7.5%;
+    text-align: center;
+    color: white;
+}
+.selecaoModoClassico h1{
+    margin-top: 3%;
+    font-size: 40pt;
+}
+.selecaoModoClassico form {
+    margin-top: 10%;
+}
+.selecaoModoClassico form label{
+    font-size: 200%;
+}
+.selecaoModoClassico form select{
+    font-size: 150%;
+    color: #ffffff;
+    width: 30%;
+    text-align: center;
+    margin-left: 5%;
+    background: rgba(1, 1, 1, 0.75);
+    border-radius: 20px;
+}
+.btnJogar{
+    background-color: rgb(255, 0, 0);
+    border-radius: 30px;
+    font-size: 2em;
+    color: white;
+    margin-top: 20%;
+}
+
+.btnJogar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.selecaoModoClassico form a:hover{
+    transform: scale(1.1);
+}
+
+/*Fim do Selecao Dimensao*/
